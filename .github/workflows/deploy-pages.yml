@@ -25,14 +25,22 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
 
+      - name: Validate catalog
+        run: |
+          jq -e '.schema_version == 1 and .catalog_version > 0 and (.presets | type == "array")' public/catalog.json
+          while IFS=$'\t' read -r relative expected; do
+            actual="$(sha256sum "public/$relative" | cut -d ' ' -f 1)"
+            test "$actual" = "$expected"
+          done < <(jq -r '.presets[] | select(.status == "active") | [.payload_url, .sha256] | @tsv' public/catalog.json)
+
       - name: Configure Pages
         uses: actions/configure-pages@v6
 
       - name: Upload catalog
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: public
 
       - name: Deploy Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
