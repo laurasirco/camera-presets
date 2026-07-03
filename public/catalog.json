@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "catalog_version": 1,
+  "minimum_app_version": "1.0",
+  "enabled": true,
+  "presets": [
+    {
+      "id": "A369B9AC-5EF2-4E82-B4E9-0DA324B30CB7",
+      "version": 1,
+      "name": "Diario",
+      "order": 0,
+      "status": "active",
+      "payload_url": "presets/A369B9AC-5EF2-4E82-B4E9-0DA324B30CB7/v1.scpreset",
+      "sha256": "806abee2980a917ffa338aeccd3cf4b6c32aa3cfdb48ccddc35364cdcd2a7786"
+    },
+    {
+      "id": "DB8A4D1C-36C4-4B85-8F74-76149E8F78D5",
+      "version": 1,
+      "name": "Mono",
+      "order": 1,
+      "status": "active",
+      "payload_url": "presets/DB8A4D1C-36C4-4B85-8F74-76149E8F78D5/v1.scpreset",
+      "sha256": "b13b417db2b38b15947ea5bc059d5ab1cf33567c15d1e6f94637ed8fda6969c5"
+    },
+    {
+      "id": "F610B69B-0453-4460-9EEC-84C12B947C8A",
+      "version": 1,
+      "name": "Cafe",
+      "order": 2,
+      "status": "active",
+      "payload_url": "presets/F610B69B-0453-4460-9EEC-84C12B947C8A/v1.scpreset",
+      "sha256": "b8130805e1e5e05227558291aed0723af84e2d9954d76b46466413fc743fabc3"
+    },
+    {
+      "id": "33AC3F1E-3DB0-456E-87AB-749A4CA66176",
+      "version": 1,
+      "name": "Notte",
+      "order": 3,
+      "status": "active",
+      "payload_url": "presets/33AC3F1E-3DB0-456E-87AB-749A4CA66176/v1.scpreset",
+      "sha256": "b367b942501a04d20759699ae2ce72957de6294a604ac44d9f9ee8544cb57267"
+    }
+  ]
+}
