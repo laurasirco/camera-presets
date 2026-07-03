@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "catalog_version": 1,
+  "catalog_version": 2,
   "minimum_app_version": "1.0",
   "enabled": true,
   "presets": [
     {
       "id": "A369B9AC-5EF2-4E82-B4E9-0DA324B30CB7",
-      "version": 1,
-      "name": "Diario",
+      "version": 2,
+      "name": "Claro",
       "order": 0,
       "status": "active",
-      "payload_url": "presets/A369B9AC-5EF2-4E82-B4E9-0DA324B30CB7/v1.scpreset",
+      "payload_url": "presets/A369B9AC-5EF2-4E82-B4E9-0DA324B30CB7/v2.scpreset",
       "sha256": "806abee2980a917ffa338aeccd3cf4b6c32aa3cfdb48ccddc35364cdcd2a7786"
     },
     {
