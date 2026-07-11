@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "catalog_version": 2,
+  "catalog_version": 3,
   "minimum_app_version": "1.0",
   "enabled": true,
   "presets": [
@@ -24,12 +24,12 @@
     },
     {
       "id": "F610B69B-0453-4460-9EEC-84C12B947C8A",
-      "version": 1,
+      "version": 2,
       "name": "Cafe",
       "order": 2,
       "status": "active",
-      "payload_url": "presets/F610B69B-0453-4460-9EEC-84C12B947C8A/v1.scpreset",
-      "sha256": "b8130805e1e5e05227558291aed0723af84e2d9954d76b46466413fc743fabc3"
+      "payload_url": "presets/F610B69B-0453-4460-9EEC-84C12B947C8A/v2.scpreset",
+      "sha256": "06ab2fe9dbcf76d4aaeecb683faee2137977dfe491508f01b00c704f67c7a641"
     },
     {
       "id": "33AC3F1E-3DB0-456E-87AB-749A4CA66176",
