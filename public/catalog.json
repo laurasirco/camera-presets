@@ -1,44 +1,35 @@
 {
   "schema_version": 1,
-  "catalog_version": 2,
+  "catalog_version": 5,
   "minimum_app_version": "1.0",
   "enabled": true,
   "presets": [
     {
       "id": "A369B9AC-5EF2-4E82-B4E9-0DA324B30CB7",
-      "version": 2,
+      "version": 3,
       "name": "Claro",
       "order": 0,
       "status": "active",
-      "payload_url": "presets/A369B9AC-5EF2-4E82-B4E9-0DA324B30CB7/v2.scpreset",
-      "sha256": "806abee2980a917ffa338aeccd3cf4b6c32aa3cfdb48ccddc35364cdcd2a7786"
+      "payload_url": "presets/A369B9AC-5EF2-4E82-B4E9-0DA324B30CB7/v3.scpreset",
+      "sha256": "99d3d7e5d9bd1f6bb0f192194f6dc6405ebfaf0ed04962d71ca103cc667da270"
     },
     {
       "id": "DB8A4D1C-36C4-4B85-8F74-76149E8F78D5",
-      "version": 1,
+      "version": 3,
       "name": "Mono",
       "order": 1,
       "status": "active",
-      "payload_url": "presets/DB8A4D1C-36C4-4B85-8F74-76149E8F78D5/v1.scpreset",
-      "sha256": "b13b417db2b38b15947ea5bc059d5ab1cf33567c15d1e6f94637ed8fda6969c5"
+      "payload_url": "presets/DB8A4D1C-36C4-4B85-8F74-76149E8F78D5/v3.scpreset",
+      "sha256": "759603a3eef29f3657f900dbc4e08e1b93ed8577c76fa0644fed6acc08058ebd"
     },
     {
       "id": "F610B69B-0453-4460-9EEC-84C12B947C8A",
-      "version": 1,
+      "version": 3,
       "name": "Cafe",
       "order": 2,
       "status": "active",
-      "payload_url": "presets/F610B69B-0453-4460-9EEC-84C12B947C8A/v1.scpreset",
-      "sha256": "b8130805e1e5e05227558291aed0723af84e2d9954d76b46466413fc743fabc3"
-    },
-    {
-      "id": "33AC3F1E-3DB0-456E-87AB-749A4CA66176",
-      "version": 1,
-      "name": "Notte",
-      "order": 3,
-      "status": "active",
-      "payload_url": "presets/33AC3F1E-3DB0-456E-87AB-749A4CA66176/v1.scpreset",
-      "sha256": "b367b942501a04d20759699ae2ce72957de6294a604ac44d9f9ee8544cb57267"
+      "payload_url": "presets/F610B69B-0453-4460-9EEC-84C12B947C8A/v3.scpreset",
+      "sha256": "7e6a45d89601dade7c48b278e4c2499a7e66bfd9e26fcc15dacab02bedda18a4"
     }
   ]
 }
